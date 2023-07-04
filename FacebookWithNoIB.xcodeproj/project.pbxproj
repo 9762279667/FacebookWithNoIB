@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		894650682A23A755005F9AA6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894650672A23A755005F9AA6 /* UIColor.swift */; };
 		895774D22A1A6F110001DA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774D12A1A6F110001DA4A /* AppDelegate.swift */; };
 		895774D42A1A6F110001DA4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774D32A1A6F110001DA4A /* SceneDelegate.swift */; };
 		895774D62A1A6F110001DA4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774D52A1A6F110001DA4A /* ViewController.swift */; };
-		895774D92A1A6F110001DA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895774D72A1A6F110001DA4A /* Main.storyboard */; };
 		895774DB2A1A6F140001DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895774DA2A1A6F140001DA4A /* Assets.xcassets */; };
-		895774DE2A1A6F140001DA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895774DC2A1A6F140001DA4A /* LaunchScreen.storyboard */; };
 		895774E92A1A6F140001DA4A /* FacebookWithNoIBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774E82A1A6F140001DA4A /* FacebookWithNoIBTests.swift */; };
 		895774F32A1A6F150001DA4A /* FacebookWithNoIBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774F22A1A6F150001DA4A /* FacebookWithNoIBUITests.swift */; };
 		895774F52A1A6F150001DA4A /* FacebookWithNoIBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774F42A1A6F150001DA4A /* FacebookWithNoIBUITestsLaunchTests.swift */; };
+		895775032A1A71640001DA4A /* FBMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895775022A1A71640001DA4A /* FBMeViewController.swift */; };
+		895775052A1A71960001DA4A /* FBMeBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895775042A1A71960001DA4A /* FBMeBaseViewController.swift */; };
+		895775082A1A7D6F0001DA4A /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895775072A1A7D6F0001DA4A /* Specs.swift */; };
+		8957750A2A1A8ADA0001DA4A /* TableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895775092A1A8ADA0001DA4A /* TableKeys.swift */; };
+		8957750D2A1A8B110001DA4A /* FBMeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8957750C2A1A8B110001DA4A /* FBMeUser.swift */; };
+		895775102A1A8D3D0001DA4A /* FBMeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8957750F2A1A8D3D0001DA4A /* FBMeBaseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		894650672A23A755005F9AA6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		895774CE2A1A6F110001DA4A /* FacebookWithNoIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookWithNoIB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		895774D12A1A6F110001DA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		895774D32A1A6F110001DA4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		895774D52A1A6F110001DA4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		895774D82A1A6F110001DA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895774DA2A1A6F140001DA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		895774DD2A1A6F140001DA4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		895774DF2A1A6F140001DA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		895774E42A1A6F140001DA4A /* FacebookWithNoIBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookWithNoIBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		895774E82A1A6F140001DA4A /* FacebookWithNoIBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWithNoIBTests.swift; sourceTree = "<group>"; };
 		895774EE2A1A6F140001DA4A /* FacebookWithNoIBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookWithNoIBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		895774F22A1A6F150001DA4A /* FacebookWithNoIBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWithNoIBUITests.swift; sourceTree = "<group>"; };
 		895774F42A1A6F150001DA4A /* FacebookWithNoIBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookWithNoIBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		895775022A1A71640001DA4A /* FBMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeViewController.swift; sourceTree = "<group>"; };
+		895775042A1A71960001DA4A /* FBMeBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeBaseViewController.swift; sourceTree = "<group>"; };
+		895775072A1A7D6F0001DA4A /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		895775092A1A8ADA0001DA4A /* TableKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableKeys.swift; sourceTree = "<group>"; };
+		8957750C2A1A8B110001DA4A /* FBMeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeUser.swift; sourceTree = "<group>"; };
+		8957750F2A1A8D3D0001DA4A /* FBMeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeBaseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,14 @@
 		895774D02A1A6F110001DA4A /* FacebookWithNoIB */ = {
 			isa = PBXGroup;
 			children = (
+				8957750E2A1A8D0B0001DA4A /* View */,
+				8957750B2A1A8AF90001DA4A /* Model */,
+				895775062A1A7D5E0001DA4A /* Helper */,
+				895775012A1A71470001DA4A /* ViewController */,
 				895774D12A1A6F110001DA4A /* AppDelegate.swift */,
 				895774D32A1A6F110001DA4A /* SceneDelegate.swift */,
 				895774D52A1A6F110001DA4A /* ViewController.swift */,
-				895774D72A1A6F110001DA4A /* Main.storyboard */,
 				895774DA2A1A6F140001DA4A /* Assets.xcassets */,
-				895774DC2A1A6F140001DA4A /* LaunchScreen.storyboard */,
 				895774DF2A1A6F140001DA4A /* Info.plist */,
 			);
 			path = FacebookWithNoIB;
@@ -125,6 +137,41 @@
 				895774F42A1A6F150001DA4A /* FacebookWithNoIBUITestsLaunchTests.swift */,
 			);
 			path = FacebookWithNoIBUITests;
+			sourceTree = "<group>";
+		};
+		895775012A1A71470001DA4A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				895775022A1A71640001DA4A /* FBMeViewController.swift */,
+				895775042A1A71960001DA4A /* FBMeBaseViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		895775062A1A7D5E0001DA4A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				895775072A1A7D6F0001DA4A /* Specs.swift */,
+				895775092A1A8ADA0001DA4A /* TableKeys.swift */,
+				894650672A23A755005F9AA6 /* UIColor.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8957750B2A1A8AF90001DA4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8957750C2A1A8B110001DA4A /* FBMeUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8957750E2A1A8D0B0001DA4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8957750F2A1A8D3D0001DA4A /* FBMeBaseCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				895774DE2A1A6F140001DA4A /* LaunchScreen.storyboard in Resources */,
 				895774DB2A1A6F140001DA4A /* Assets.xcassets in Resources */,
-				895774D92A1A6F110001DA4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8957750A2A1A8ADA0001DA4A /* TableKeys.swift in Sources */,
+				895775032A1A71640001DA4A /* FBMeViewController.swift in Sources */,
+				895775102A1A8D3D0001DA4A /* FBMeBaseCell.swift in Sources */,
+				8957750D2A1A8B110001DA4A /* FBMeUser.swift in Sources */,
+				895775082A1A7D6F0001DA4A /* Specs.swift in Sources */,
 				895774D62A1A6F110001DA4A /* ViewController.swift in Sources */,
 				895774D22A1A6F110001DA4A /* AppDelegate.swift in Sources */,
 				895774D42A1A6F110001DA4A /* SceneDelegate.swift in Sources */,
+				895775052A1A71960001DA4A /* FBMeBaseViewController.swift in Sources */,
+				894650682A23A755005F9AA6 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +347,6 @@
 			targetProxy = 895774EF2A1A6F140001DA4A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		895774D72A1A6F110001DA4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				895774D82A1A6F110001DA4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		895774DC2A1A6F140001DA4A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				895774DD2A1A6F140001DA4A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		895774F62A1A6F150001DA4A /* Debug */ = {
@@ -441,8 +474,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FacebookWithNoIB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,8 +502,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FacebookWithNoIB/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
